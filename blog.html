@@ -34,9 +34,16 @@
       <h1 class="mt-6 mb-4 px-2 text-xl font-light leading-relaxed bg-sky-500">
         Q3. event loop
       </h1>
-      <p
-        class="mt-6 mb-4 px-2 text-xl font-light leading-relaxed bg-sky-300"
-      ></p>
+      <p class="mt-6 mb-4 px-2 text-xl font-light leading-relaxed bg-sky-300">
+        The runtime model of JavaScript is based on an event loop, which
+        executes the code, gathers and processes events, and performs queued
+        sub-tasks. All the actions waiting in line to be carried out are tracked
+        by the call stack. As soon as a function is complete, it is removed from
+        the stack. New functions are sent to the stack for processing by the
+        event queue. To maintain the correct order in which all operations
+        should be transmitted for execution, it adheres to the queue data
+        structure.
+      </p>
       <h1 class="mt-6 mb-4 px-2 text-xl font-light leading-relaxed bg-sky-500">
         Q4. work of quiztimer
       </h1>
