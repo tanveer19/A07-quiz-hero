@@ -1,3 +1,2 @@
-# b7a7-quiz-hero-tanveer19
-
 Assignment 7
+https://github.com/tanveer19/A07-quiz-hero.git
